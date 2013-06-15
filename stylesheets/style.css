@@ -1,0 +1,160 @@
+/* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*---Variables---*/
+/*---Colors---*/
+/* line 13, ../sass/style.scss */
+html {
+  background-color: #edeeee;
+}
+
+/* line 17, ../sass/style.scss */
+.contactpage {
+  width: 690px;
+  height: 800px;
+}
+
+/* line 22, ../sass/style.scss */
+.ProfileCardAvatar {
+  background: url("../avatar.jpg");
+  height: 13em;
+  width: 13em;
+  border-radius: 105px;
+  border: solid 1px #8c8c8c;
+  box-shadow: 0 10px 26px rgba(120, 137, 150, 0.3);
+  margin-left: 30em;
+}
+
+/* line 32, ../sass/style.scss */
+.ProfileCardTop {
+  margin-top: 1.7em;
+  margin-left: 27em;
+  width: 18.75em;
+  height: 76px;
+}
+
+/* line 39, ../sass/style.scss */
+.ProfileCardName {
+  position: absolute;
+  width: 18.75em;
+  margin-top: 2.76em;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 -1px 0 #333;
+  letter-spacing: 0.07em;
+}
+
+/* line 50, ../sass/style.scss */
+.ProfileCardBox {
+  width: 18.75em;
+  height: 20.625em;
+  margin-left: 27em;
+  background-color: white;
+  box-shadow: 0 10px 26px rgba(120, 137, 150, 0.3);
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+/* line 60, ../sass/style.scss */
+.ProfileCardTextTitle {
+  float: left;
+  margin: 0.1em 0 0 2.6em;
+  width: 2.5em;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  font-size: 0.95em;
+  line-height: 3.2em;
+  text-align: right;
+  color: #686b6b;
+}
+
+/* line 72, ../sass/style.scss */
+.ProfileCardJob {
+  margin-bottom: 2.7em;
+}
+
+/* line 76, ../sass/style.scss */
+.ProfileCardText {
+  margin-left: 6.2em;
+  padding-top: 0.1em;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  font-size: 0.95em;
+  line-height: 3.2em;
+  color: #adb1b2;
+}
+/* line 85, ../sass/style.scss */
+.ProfileCardText span {
+  display: block;
+  line-height: 1.35em;
+  margin: -1em 0 0.8em 0;
+}
+
+/* line 93, ../sass/style.scss */
+.ProfileCardBorder {
+  border-bottom: solid 1px #dacfc0;
+  width: 10em;
+}

@@ -1,0 +1,96 @@
+@import "compass/reset";
+
+/*---Variables---*/
+$cardBorderR: 14px;
+$softShadow: 0 10px 26px rgba(120, 137, 150, 0.3);
+$cardFontSize: 0.95em;
+$cardLineHeight: 3.2em;
+
+/*---Colors---*/
+$white: #fff;
+$black: #000;
+
+html{
+  background-color: #edeeee;
+}
+
+.contactpage {
+  width: 690px;
+  height: 800px;
+}
+
+.ProfileCardAvatar {
+  background: url('../avatar.jpg');
+  height: 13em;
+  width: 13em;
+  border-radius: 105px;
+  border: solid 1px #8c8c8c;
+  box-shadow: $softShadow;
+  margin-left: 30em;
+}
+
+.ProfileCardTop {
+  margin-top: 1.7em;
+  margin-left: 27em;
+  width: 18.75em;
+  height: 76px;
+}
+
+.ProfileCardName{
+  position: absolute;
+  width: 18.75em;
+  margin-top: 2.76em;
+  text-align: center;
+  color: $white;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 -1px 0 #333;
+  letter-spacing: 0.07em;
+}
+
+.ProfileCardBox {
+  width: 18.75em;
+  height: 20.625em;
+  margin-left: 27em;
+  background-color: $white;
+  box-shadow: $softShadow;
+  border-bottom-left-radius: $cardBorderR;
+  border-bottom-right-radius: $cardBorderR;
+}
+
+.ProfileCardTextTitle {
+  float: left;
+  margin: 0.1em 0 0 2.6em;
+  width: 2.5em;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  font-size: $cardFontSize;
+  line-height: $cardLineHeight;
+  text-align: right;
+  color: #686b6b;
+}
+
+.ProfileCardJob {
+  margin-bottom: 2.7em;
+}
+
+.ProfileCardText {
+  margin-left: 6.2em;
+  padding-top: 0.1em;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  font-size: $cardFontSize;
+  line-height: $cardLineHeight;
+  color: #adb1b2;
+
+  span {
+	display: block;
+	line-height: 1.35em;
+	margin: -1em 0 0.8em 0;
+  }
+
+	}
+
+.ProfileCardBorder {
+  border-bottom: solid 1px #dacfc0;
+  width: 10em;
+}
