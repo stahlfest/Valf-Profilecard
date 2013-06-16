@@ -72,6 +72,7 @@ html {
 
 /* line 17, ../sass/style.scss */
 .ProfileCardContainer {
+  position: relative;
   margin-left: 20%;
   -webkit-animation-duration: 0.8s;
   animation-duration: 0.8s;
@@ -85,7 +86,7 @@ html {
   transform-origin: top;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .ProfileCardAvatar {
   background: url("../avatar.jpg");
   height: 13em;
@@ -97,99 +98,99 @@ html {
 }
 
 @keyframes avatar {
-  /* line 43, ../sass/style.scss */
+  /* line 44, ../sass/style.scss */
   from {
     margin-top: -1em;
     transform: rotateX(-70deg);
   }
 
-  /* line 48, ../sass/style.scss */
+  /* line 49, ../sass/style.scss */
   38% {
     transform: rotateX(30deg);
   }
 
-  /* line 52, ../sass/style.scss */
+  /* line 53, ../sass/style.scss */
   50% {
     transform: rotateX(10deg);
   }
 
-  /* line 56, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   70% {
     transform: rotateX(14deg);
   }
 
-  /* line 60, ../sass/style.scss */
+  /* line 61, ../sass/style.scss */
   to {
     transform: rotateX(0deg);
   }
 }
 
 @-moz-keyframes avatar {
-  /* line 66, ../sass/style.scss */
+  /* line 67, ../sass/style.scss */
   from {
     margin-top: -1em;
     -moz-transform: rotateX(-70deg);
   }
 
-  /* line 71, ../sass/style.scss */
+  /* line 72, ../sass/style.scss */
   38% {
     margin-top: 0;
     -moz-transform: rotateX(30deg);
   }
 
-  /* line 76, ../sass/style.scss */
+  /* line 77, ../sass/style.scss */
   50% {
     -moz-transform: rotateX(10deg);
   }
 
-  /* line 80, ../sass/style.scss */
+  /* line 81, ../sass/style.scss */
   70% {
     -moz-transform: rotateX(14deg);
   }
 
-  /* line 84, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   to {
     -moz-transform: rotateX(0deg);
   }
 }
 
 @-webkit-keyframes avatar {
-  /* line 90, ../sass/style.scss */
+  /* line 91, ../sass/style.scss */
   from {
     margin-top: -1em;
     -webkit-transform: rotateX(-70deg);
   }
 
-  /* line 95, ../sass/style.scss */
+  /* line 96, ../sass/style.scss */
   38% {
     margin-top: 0;
     -webkit-transform: rotateX(30deg);
   }
 
-  /* line 100, ../sass/style.scss */
+  /* line 101, ../sass/style.scss */
   50% {
     -webkit-transform: rotateX(10deg);
   }
 
-  /* line 104, ../sass/style.scss */
+  /* line 105, ../sass/style.scss */
   70% {
     -webkit-transform: rotateX(14deg);
   }
 
-  /* line 108, ../sass/style.scss */
+  /* line 109, ../sass/style.scss */
   to {
     -webkit-transform: rotateX(0deg);
   }
 }
 
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .ProfileCardTop {
   margin-top: 1.7em;
   width: 18.75em;
   height: 76px;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .ProfileCardName {
   position: absolute;
   width: 18.75em;
@@ -201,7 +202,7 @@ html {
   letter-spacing: 0.07em;
 }
 
-/* line 130, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .ProfileCardBox {
   width: 18.75em;
   height: 20.625em;
@@ -211,7 +212,7 @@ html {
   border-bottom-right-radius: 14px;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .ProfileCardTextTitle {
   float: left;
   margin: 0.1em 0 0 2.6em;
@@ -224,12 +225,12 @@ html {
   color: #686b6b;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .ProfileCardJob {
   margin-bottom: 2.7em;
 }
 
-/* line 155, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .ProfileCardText {
   margin-left: 6.2em;
   padding-top: 0.1em;
@@ -239,32 +240,32 @@ html {
   line-height: 3.2em;
   color: #adb1b2;
 }
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .ProfileCardText span {
   display: block;
   line-height: 1.35em;
   margin: -1em 0 0.8em 0;
 }
-/* line 170, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .ProfileCardText a {
   text-decoration: none;
   color: #adb1b2;
 }
 
-/* line 177, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .ProfileCardBorder {
   border-bottom: solid 1px #dacfc0;
   width: 10em;
 }
 
-/* line 182, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .ProfileCardTwitter {
   background: url("../twitter.png") no-repeat;
   background-position: 1em;
   color: transparent;
 }
 
-/* line 188, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .ProfileCardPlace {
   background: url("../place.png") no-repeat;
   background-position: 1.3em;
