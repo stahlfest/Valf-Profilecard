@@ -1,5 +1,7 @@
 @import "compass/reset";
 
+@import "compass/css3/transition";
+
 /*---Variables---*/
 $cardBorderR: 14px;
 $softShadow: 0 10px 26px rgba(120, 137, 150, 0.3);
@@ -14,9 +16,13 @@ html{
   background-color: #edeeee;
 }
 
-.contactpage {
-  width: 690px;
-  height: 800px;
+.ProfileCardContainer {
+  margin-left: 20%;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-name: avatar;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: top;
 }
 
 .ProfileCardAvatar {
@@ -26,12 +32,39 @@ html{
   border-radius: 105px;
   border: solid 1px #8c8c8c;
   box-shadow: $softShadow;
-  margin-left: 30em;
+  margin-left: 3em;
+
+}
+
+@-webkit-keyframes avatar {
+  from {
+	margin-top: -1em;
+	-webkit-transform: rotateX(-70deg);
+  }
+
+  38%{
+	margin-top: 0;
+	-webkit-transform: rotateX(30deg);
+  }
+
+  50%{
+	margin-top: 0;
+	-webkit-transform: rotateX(10deg);
+  }
+
+  70%{
+	margin-top: 0;
+	-webkit-transform: rotateX(14deg);
+  }
+
+  to {
+	 margin-top: 0;
+	 -webkit-transform: rotateX(0deg);
+   }
 }
 
 .ProfileCardTop {
   margin-top: 1.7em;
-  margin-left: 27em;
   width: 18.75em;
   height: 76px;
 }
@@ -50,7 +83,6 @@ html{
 .ProfileCardBox {
   width: 18.75em;
   height: 20.625em;
-  margin-left: 27em;
   background-color: $white;
   box-shadow: $softShadow;
   border-bottom-left-radius: $cardBorderR;
@@ -86,6 +118,11 @@ html{
 	display: block;
 	line-height: 1.35em;
 	margin: -1em 0 0.8em 0;
+  }
+
+  a {
+	text-decoration: none;
+	color: #adb1b2;
   }
 
 	}
